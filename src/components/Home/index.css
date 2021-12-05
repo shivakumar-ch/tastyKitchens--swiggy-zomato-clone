@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+}
+
+.home-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-body {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-li-img {
+  width: 100%;
+  height: 150px;
+}
+
+.carousel-ul {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.restaurants-div {
+  padding: 0px 10px;
+}
+
+.sorting-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hr-line {
+  border: 1px dashed #cbd2d9;
+  background-color: #cbd2d9;
+}
+
+.body-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 48px;
+  color: #183b56;
+  margin: 0px;
+}
+
+.body-para {
+  margin: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+}
+
+.sort-trigger-btn {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  outline: none;
+}
+
+.sort-buttons-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.sort-options-btn {
+  width: 100px;
+  padding: 5px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f1f5f9;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+}
+
+.options-btn-para {
+  margin: 0px;
+}
+
+.sort-para {
+  width: 120px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sort-content {
+  width: 120px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurant-ul {
+  padding: 0px 10px;
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.li-link {
+  text-decoration: none;
+  color: #64748b;
+  width: 100%;
+  margin: 0px 10px 15px 0px;
+}
+
+.paginate-buttons-div {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  /* background-color: red; */
+  padding: 10px;
+}
+.page-btn {
+  background-color: transparent;
+  border: 1px solid #334155;
+  padding: 5px;
+  outline: none;
+}
+
+.page-no-span {
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.loader-div {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-div {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-para {
+  color: #475569;
+  font-size: 12px;
+  width: 80%;
+  text-align: center;
+}
+.failure-head {
+  color: #1e293b;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+.failure-img {
+  width: 30px;
+  height: 30px;
+}
+
+.failure-btn {
+  color: #ffffff;
+  margin: 8px 0px;
+  padding: 5px 12px;
+  background-color: #f7931e;
+  border-radius: 5px;
+  border: 1px solid #f7931e;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sorting-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .carousel-li-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 0px 30px;
+  }
+
+  .home-body {
+    padding-top: 0px;
+  }
+
+  .body-heading {
+    font-size: 32px;
+  }
+
+  .restaurants-div {
+    padding: 0px 30px;
+  }
+
+  .body-para {
+    font-size: 16px;
+    width: 70%;
+  }
+
+  .restaurant-ul {
+    padding: 0px 30px;
+  }
+
+  .card-li {
+    /* max-width: 30%; */
+
+    font-size: 16px;
+  }
+  .li-link {
+    width: 30%;
+    padding-bottom: 20px;
+    /* background-color: #183b56; */
+  }
+
+  .failure-para {
+    font-size: 20px;
+  }
+  .failure-head {
+    font-size: 24px;
+  }
+  .failure-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .carousel-li-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .card-li {
+    font-size: 14px;
+  }
+
+  .li-link {
+    max-width: 40%;
+  }
+}

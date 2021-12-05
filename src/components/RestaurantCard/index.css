@@ -1,0 +1,65 @@
+.thumbnail-img {
+  width: 50%;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.card-content {
+  height: 100%;
+  width: 50%;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name {
+  font-size: 12px;
+  color: #334155;
+  margin: 0px;
+}
+
+.cuisine {
+  font-size: 12px;
+  margin: 15px 0px;
+}
+
+.rating-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.rating-para {
+  font-weight: bold;
+  color: #1e293b;
+  margin: 0px;
+  padding: 0px 5px;
+  font-size: 12px;
+}
+
+.rating-span {
+  font-weight: 400;
+  color: #64748b;
+  padding-left: 5px;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 16px;
+  }
+
+  .thumbnail-img {
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .thumbnail-img {
+    height: 80px;
+  }
+}

@@ -1,0 +1,20 @@
+.counter-div {
+  width: 70px;
+  margin-top: 10px 10px;
+  padding: 0px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid #475569;
+  color: #475569;
+  border-radius: 3px;
+  outline: none;
+}
+.counter-para {
+  margin: 0px 0px;
+}

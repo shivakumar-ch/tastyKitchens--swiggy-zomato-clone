@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+.nav-div {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  /* background-color: red; */
+}
+.logo-ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #f7931e;
+  /* background-color: red; */
+}
+.nav-ul {
+  display: none;
+}
+.logo-btn {
+  width: 180px;
+  background-color: transparent;
+  color: #f7931e;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.logout-btn {
+  border: none;
+  padding: 5px 12px;
+  background-color: #f7931e;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+}
+
+.home-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.cart-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.active-btn {
+  color: #f7931e;
+}
+
+.passive-btn {
+  color: #334155;
+}
+
+.hamberger-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.logo-img {
+  /* background-color: red; */
+  color: red;
+  width: 25px;
+  height: 25px;
+}
+.logo-heading {
+  font-size: 18px;
+}
+
+.popup-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  /* background-color: red; */
+}
+.popup-ul {
+  width: 60vw;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+.popup-close-btn {
+  border: none;
+  background-color: transparent;
+  /* margin-left: 20px; */
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-heading {
+    font-size: 24px;
+  }
+
+  .hamberger-btn {
+    display: none;
+  }
+  .logo-img {
+    color: red;
+    width: 35px;
+    height: 35px;
+  }
+  .logo-btn {
+    width: 230px;
+    font-size: 24px;
+  }
+  .nav-ul {
+    display: block;
+    width: 200px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-content {
+    display: none;
+  }
+  .popup-div {
+    display: none;
+  }
+  .nav-div {
+    padding: 10px 30px;
+  }
+}

@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/dzpzhwjgy/image/upload/v1637673632/Rectangle_1457_uoiz1u.jpg');
+  background-size: 100% 55%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+}
+.card {
+  height: 40vh;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  align-self: flex-end;
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div {
+  width: 90%;
+  color: #475569;
+}
+
+.text-field {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px 1px;
+  color: gray;
+  background: #e2e8f0;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f7931e;
+  padding: 8px;
+  margin-top: 10px;
+  outline: none;
+}
+
+.logo-div {
+  display: none;
+}
+
+.login-lg-img {
+  display: none;
+}
+.login-heading {
+  font-size: 20px;
+  margin-bottom: 8px;
+  padding: 0px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.login-head {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-div {
+    width: 70%;
+    color: #475569;
+  }
+  .card {
+    margin: 0px 10%;
+    height: 70%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    box-shadow: 5px 5px 15px gray;
+    /* background-color: gray; */
+    border-radius: 10px;
+  }
+  .login-lg-img {
+    display: block;
+    width: 60%;
+    height: 100vh;
+  }
+  .logo-div {
+    color: #f7931e;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

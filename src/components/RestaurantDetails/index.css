@@ -1,0 +1,131 @@
+.food-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner-div {
+  width: 100%;
+  height: 30vh;
+  background-image: url('https://res.cloudinary.com/dzpzhwjgy/image/upload/v1638158085/Frame_279_o17kfl.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* justify-content: space-between; */
+}
+.banner-img {
+  width: 200px;
+  height: 250px;
+  border-radius: 0px 50% 50% 50%;
+  margin: -100px 0px 0px -90px;
+}
+
+.banner-ratings-div {
+  width: 100%;
+  display: flex;
+  margin-top: 3px;
+  /* background-color: gray; */
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+
+.para {
+  margin: 3px 0px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-head {
+  font-size: 15px;
+  margin: 0px;
+}
+
+.ratings-hr-line {
+  margin: 0px 3px 0px 3px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.banner-content-div {
+  width: 50%;
+  color: #ffffff;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5%;
+}
+.foods-ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  list-style-type: none;
+  padding: 0px 10px;
+}
+
+.food-li {
+  /* background-color: red; */
+  width: 100%;
+  margin: 0px 5px 10px 0px;
+}
+.rating-views-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: red; */
+}
+.cost-of-two-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: cyan; */
+}
+
+@media screen and (min-width: 768px) {
+  .banner-div {
+    width: 100%;
+    height: 45vh;
+    padding-left: 30px;
+  }
+  .banner-content-div {
+    height: 80%;
+  }
+  .banner-img {
+    outline: none;
+    border: none;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .para {
+    font-size: 20px;
+    margin: 8px 0px 0px 0px;
+  }
+
+  .banner-head {
+    font-size: 24px;
+    margin: 0px;
+  }
+  .banner-ratings-div {
+    width: 300px;
+    margin-top: 10px;
+  }
+  .foods-ul {
+    padding: 0px 30px;
+  }
+  .item-head {
+    font-size: 20px;
+  }
+  .food-li {
+    width: 40%;
+    margin: 0px 10% 20px 0px;
+  }
+}
